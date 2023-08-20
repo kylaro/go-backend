@@ -5,7 +5,7 @@ sql:
   engine: "postgresql"
   gen:
     go: 
-      package: "authors"
+      package: "db"
       out: "./db/sqlc"
   database:
     uri: "postgresql://postgres:postgres@localhost:5432/postgres"
